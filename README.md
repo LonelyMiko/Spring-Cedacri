@@ -1,6 +1,6 @@
-# Spring Boot Rest Api Demo
+# Spring Boot
 
-Complete Rest Api developed in Spring Boot,
+Complete Spring Boot,
 
 Run the project and access and access `http://localhost:8080`
 
@@ -19,15 +19,12 @@ Update student: Send PUT request to `http://localhost:8080//instructors/edit`
 To insert or update also send a json on the body of request like the example below
 
 {
-
-  "age": 18,
-
-  "firstName": "John",
-
-  "lastName": "Doe",
-
-  "course": "Computer Science"
-
+  "id":1,
+  "name":"TestCourse123321",
+  "category":"TestCategory",
+  "users":752,
+  "reviews":752,
+  "hearts":721
 }
 
 Thanks =)
