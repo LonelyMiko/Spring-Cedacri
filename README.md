@@ -2,19 +2,19 @@
 
 Complete Rest Api developed in Spring Boot,
 
-Run the project and access and access `http://localhost:8080/api/v1/students`
+Run the project and access and access `http://localhost:8080`
 
 You also could use Postman to get, post, put or delete data on api by following...
 
-Insert student: Send POST request to `http://localhost:8080/api/v1/students`
+Insert student: Send POST request to `http://localhost:8080/courses/create`
 
 Get all students: Send GET request to `http://localhost:8080/api/v1/students`
 
-Get one student: Send GET request to `http://localhost:8080/api/v1/students/student_id`
+Get one student: Send GET request to `http://localhost:8080/api/v1/courses`
 
-Delete student: Send DELETE request to `http://localhost:8080/api/v1/students/student_id`
+Delete student: Send DELETE request to `/instructors/delete/{id}`
 
-Update student: Send PUT request to `http://localhost:8080/api/v1/students/student_id`
+Update student: Send PUT request to `http://localhost:8080//instructors/edit`
 
 To insert or update also send a json on the body of request like the example below
 
